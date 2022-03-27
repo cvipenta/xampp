@@ -11,8 +11,8 @@ Handy XAMPP replacer, using docker containers for php,  apache, mysql, phpMyAdmi
    - Make sure docker is up and running after the installation is complete
 
 
-2. Download the project or git clone it on your local machine.
-
+2. [Download the project](https://github.com/cvipenta/xampp/archive/refs/heads/master.zip) or clone `git clone https://github.com/cvipenta/xampp.git .` it on your local machine.
+   
 
 3. Open terminal and change directory to the current folder eg: `cd C:\...\code-xampp`
 
