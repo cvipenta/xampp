@@ -30,10 +30,27 @@ the folder structure will be:
    |-- src
 ````
 
+If you have make available on your computer run the commands as described bellow.
+(Optional) https://www.technewstoday.com/install-and-use-make-in-windows/
+
 5. To start the containers run `make docker-up`. Check the containers' status with `docker ps` 
 
-
 6. Access web container with `make ssh-web`
+
+
+Otherwise, you can use the commands present in makefile as follows:
+
+**start all containers**  
+`docker-compose up -d`
+
+**stop all containers**  
+`docker-compose down`
+
+**access web container**  
+`docker exec -it practica_web bash`
+
+**recreate containers after configuration changes**  
+`docker-compose up --build --force-recreate -d`
 
 
 Update the configurations upon your needs!
