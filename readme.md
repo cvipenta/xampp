@@ -12,9 +12,10 @@ Handy XAMPP replacer, using docker containers for php,  apache, mysql, phpMyAdmi
 
 
 2. [Download the project](https://github.com/cvipenta/xampp/archive/refs/heads/master.zip) or clone `git clone https://github.com/cvipenta/xampp.git .` it on your local machine.
-   
 
-3. Open terminal and change directory to the current folder eg: `cd C:\...\code-xampp`
+3. Unzip the archive downloaded, rename and move the folder as you wish.
+
+4. Open terminal and navigate from terminal to your newly created folder eg: `cd C:\ ... \code-xampp`
 
 ````     
    |-- docker
@@ -28,10 +29,10 @@ Handy XAMPP replacer, using docker containers for php,  apache, mysql, phpMyAdmi
    |-- src
 ````
 
-4. To start the containers run `make docker-up`. Check the containers' status with `docker ps` 
+5. To start the containers run `make docker-up`. Check the containers' status with `docker ps` 
 
 
-5. Access web container with `make ssh-web`
+6. Access web container with `make ssh-web`
 
 
 Update the configurations upon your needs!
