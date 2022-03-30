@@ -15,8 +15,9 @@ Handy XAMPP replacer, using docker containers for php,  apache, mysql, phpMyAdmi
 
 3. Unzip the archive downloaded, rename and move the folder as you wish.
 
-4. Open terminal and navigate from terminal to your newly created folder eg: `cd C:\ ... \code-xampp`
+4. Open terminal and navigate from terminal to your newly created folder eg: `cd C:\ ... \code-xampp`  
 
+the folder structure will be:
 ````     
    |-- docker
    |   |-- Dockerfile
