@@ -1,4 +1,5 @@
 <?php
 
-echo "Hello, is it me you're looking for?";
+echo "The server it's up and running \n";
+echo __FILE__;
 

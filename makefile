@@ -1,5 +1,5 @@
 ssh-web:
-	docker exec -it practica_web bash
+	docker exec -it practica_web /bin/bash
 
 docker-up:
 	docker-compose up -d
